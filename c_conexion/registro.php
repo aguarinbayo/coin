@@ -22,7 +22,7 @@ $result = $conx->ExecuteQuery($query);
 
 $conx->CerrarConexion();
 echo "<script type='text/javascript'>
-  window.location='../web/panel/panel.php';
+  window.location='../../coin/panel/panel.php';
 </script>";
 
 }
